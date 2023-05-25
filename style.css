@@ -1,1 +1,14 @@
-header { background-color:#FFCCE4;}
+header { background-image: url(Rectangle\ 2.png); 
+background-color: lightpink;
+color: black;
+display: flex;
+justify-content: left;
+}
+.cabecalho-imagem{
+    width: 20%;
+}
+
+
+.cabecalho-lista-item{
+    display: inline-block;
+}
