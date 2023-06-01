@@ -1,14 +1,19 @@
-header { background-image: url(Rectangle\ 2.png); 
+
+*{margin: 0;
+padding: 0;}
+
+
+.cabecalho { background-image: url(Rectangle\ 2.png); 
 background-color: lightpink;
 color: black;
-display: flex;
-justify-content: left;
+display: flex; justify-content: space-around;
+align-items: center;
 }
 .cabecalho-imagem{
-    width: 20%;
-}
+    width: 90px; height: 90px;
+ }
+
+#imgpos {position: absolute;left: 0px; top: 0px;}
+.cabecalho-imagem2{width: 5%;}
 
 
-.cabecalho-lista-item{
-    display: inline-block;
-}
